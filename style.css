@@ -1,0 +1,31 @@
+
+:root{
+  --bg:#f7f8fa; --card:#ffffff; --text:#1a1d21; --muted:#626b75;
+  --border:#e3e7ec; --accent:#1f5f8b; --accent2:#17496b;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:#fff;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:70px}
+.brand{font-weight:800;font-size:1.2rem;color:var(--text)}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:.95rem}
+.hero{padding:72px 0 48px}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.08;margin:0 0 18px;max-width:820px}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:28px 0 42px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px}
+.card h2,.card h3{margin-top:0}
+.badge{display:inline-block;background:#eaf2f8;color:var(--accent2);padding:6px 10px;border-radius:999px;font-size:.82rem;font-weight:700}
+main{padding-bottom:60px}
+article{background:#fff;border:1px solid var(--border);border-radius:16px;padding:clamp(24px,5vw,48px);margin:32px 0}
+article h1{line-height:1.15}
+.notice{border-left:4px solid var(--accent);background:#eef5fa;padding:16px 18px;margin:24px 0}
+.risk{border:1px solid #d9dfe6;background:#f2f4f6;border-radius:12px;padding:18px;margin:26px 0;font-size:.95rem}
+.placeholder{border:2px dashed #aab4bf;background:#fafbfd;border-radius:14px;padding:24px;text-align:center;color:#5c6670;margin:26px 0}
+footer{background:#fff;border-top:1px solid var(--border);padding:34px 0;color:var(--muted);font-size:.9rem}
+.footerlinks{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}
+ul{padding-left:22px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.hero{padding-top:44px}}
