@@ -5,6 +5,13 @@ Interne Checkliste für die Prüfung der deutschen CFD-Seiten vor Aktivierung vo
 
 > Diese Datei ist eine Arbeitsunterlage und keine Rechtsberatung. Die finale Freigabe muss durch die zuständige Compliance-/Legal-Stelle erfolgen.
 
+## Aktueller technischer Stand
+- Deutsche Seiten sind als Bildungs-/Informationsangebot aufgebaut; Deutschland und Österreich bleiben getrennt.
+- Auf den deutschen Seiten ist derzeit kein konkreter Plus500-Provider-Affiliate-Link aktiviert.
+- Die öffentliche Seite `de/affiliate-transparenz-deutschland.html` erklärt Vergütung, Freigabeprozess und redaktionelle Trennung.
+- Anbieterbezogene Daten und ein provider-spezifischer Verlustprozentsatz werden nicht erfunden oder als Platzhalter veröffentlicht.
+- Die Sitemap wurde um die deutsche Affiliate-Transparenzseite ergänzt.
+
 ## 1. Grundprinzipien
 - [ ] Kommunikation ist fair, klar und nicht irreführend.
 - [ ] Keine Gewinnversprechen, Erfolgsversprechen oder Formulierungen wie „sicher“, „garantiert“ oder „risikofrei“.
@@ -14,13 +21,14 @@ Interne Checkliste für die Prüfung der deutschen CFD-Seiten vor Aktivierung vo
 - [ ] Keine Aufforderung, den Status als professioneller Kunde zu beantragen oder Hebelgrenzen zu umgehen.
 
 ## 2. CFD-Risikowarnung
-BaFin weist für die Vermarktung, den Vertrieb und Verkauf von CFDs an Privatkunden in Deutschland auf Anforderungen einschließlich einer geeigneten Risikowarnung mit anbieterbezogenem Verlustprozentsatz hin. Die Warnung muss prominent und in derselben Sprache wie die Kommunikation erscheinen.
+BaFin verlangt für die Vermarktung, den Vertrieb und Verkauf von CFDs an Privatkunden in Deutschland unter den einschlägigen Voraussetzungen eine geeignete Risikowarnung. Bei providerbezogener Kommunikation muss die Warnung den aktuellen anbieterbezogenen Verlustprozentsatz enthalten und prominent sowie in derselben Sprache wie die Kommunikation erscheinen.
 
 - [ ] Vor Aktivierung eines konkreten Provider-Affiliate-Links liegt die aktuell vom Provider/Compliance freigegebene Risikowarnung vor.
 - [ ] Der Verlustprozentsatz stammt direkt aus einer aktuellen, freigegebenen Provider-Quelle.
 - [ ] Kein Verlustprozentsatz wird von MarktWissen geschätzt, kopiert oder erfunden.
 - [ ] Platzierung, Schriftgröße und Sprache der Warnung wurden geprüft.
 - [ ] Abweichende Kurzformate werden nur verwendet, wenn sie von Compliance freigegeben sind.
+- [ ] Keine providerbezogene Marketing-Kommunikation geht live, bevor dieser Block vollständig geprüft ist.
 
 ## 3. Provider-Daten
 - [ ] Rechtliche Einheit verifiziert.
@@ -37,6 +45,7 @@ BaFin weist für die Vermarktung, den Vertrieb und Verkauf von CFDs an Privatkun
 - [ ] Ranking/Positionierung ist nicht allein von der Vergütung abhängig.
 - [ ] Affiliate-CTA wird erst nach Provider-/Compliance-Freigabe aktiviert.
 - [ ] Linkziel und Trackingparameter wurden freigegeben.
+- [ ] Bei aktivierten Affiliate-Links wird die technische Kennzeichnung der Links geprüft (z. B. `rel="sponsored"`).
 
 ## 5. Redaktionelle Qualität
 - [ ] Keine erfundenen Nutzererfahrungen oder Testimonials.
@@ -44,6 +53,7 @@ BaFin weist für die Vermarktung, den Vertrieb und Verkauf von CFDs an Privatkun
 - [ ] Primärquellen werden für aktuelle Providerangaben bevorzugt.
 - [ ] Redaktionelle Aussagen und Marketingaussagen sind klar unterscheidbar.
 - [ ] Keine persönliche Anlage-, Finanz- oder Steuerberatung.
+- [ ] Jede kommerzielle Seite liefert eigenständige Vergleichs- oder Entscheidungshilfe statt bloß wiederverwendeter Providertexte.
 
 ## 6. Technischer Pre-Launch-Check
 - [ ] Impressum vorhanden und geprüft.
@@ -57,14 +67,17 @@ BaFin weist für die Vermarktung, den Vertrieb und Verkauf von CFDs an Privatkun
 - [ ] Affiliate-Links erst nach Freigabe live.
 
 ## 7. Freigabestatus
-**Aktueller Stand:** Redaktionelle Basis / Compliance-Vorprüfung.
+**Aktueller Stand:** Redaktionelle Basis / Compliance-Vorprüfung; deutsche Affiliate-Transparenz ist öffentlich dokumentiert.
 
-**Noch nicht freigegeben:** konkrete Provider-Affiliate-Kommunikation und providerbezogene Risikowarnungen, solange keine aktuellen, dokumentierten Provider-Daten und die erforderliche Compliance-Freigabe vorliegen.
+**Noch nicht freigegeben:** konkrete Provider-Affiliate-Kommunikation und providerbezogene Risikowarnungen, solange keine aktuellen, dokumentierten Provider-Daten, freigegebenen Marketingmaterialien und die erforderliche Compliance-Freigabe vorliegen.
+
+**Wichtig:** Die vorhandene redaktionelle Vorbereitung ist keine Zusicherung, dass eine Compliance-Stelle die Seite freigibt. Vor Aktivierung des kommerziellen Provider-Funnels ist die finale Prüfung durch die zuständige Stelle erforderlich.
 
 ## Quellen für die Compliance-Prüfung
 - BaFin: General Administrative Act – Product intervention regarding CFDs.
-- BaFin: Guidelines on the General Administrative Act of 23 July 2019 regarding CFDs.
+- BaFin: Guidelines on the General Administrative Act of 23 July 2019 regarding CFDs, insbesondere Affiliate-/Partner-Marketing und Risikowarnungen.
 - ESMA: CFD product intervention measures and risk-warning requirements.
 - ESMA: MiFID II Article 24 – fair, clear and not misleading communications.
+- Google Search Central: Spam policies / affiliate content and sponsored links.
 
-Die jeweils aktuelle Fassung der regulatorischen Anforderungen ist vor finaler Freigabe erneut durch Compliance/Legal zu prüfen.
+Die jeweils aktuelle Fassung der regulatorischen und Plattformanforderungen ist vor finaler Freigabe erneut durch Compliance/Legal zu prüfen.
